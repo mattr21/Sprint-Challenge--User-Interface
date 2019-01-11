@@ -79,11 +79,38 @@ p {
     margin-right: 40px;
   }
 
-  .header nav a {
+.header nav a {
       text-decoration: none;
       color: black;
       margin-top: 20px;
       margin-bottom: 35px;  
+  }
+
+  .header nav a .logo {
+    animation: bounceIn 0.6s;
+    transform: rotate(0deg) scale(1);
+  }
+
+  @keyframes bounceIn {
+    0% {
+      opacity: 1;
+      transform: scale(.3);
+    } 
+  
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    } 
+  
+    70% {
+      opacity: 1;
+      transform: scale(.9);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
 
 .top-content {
