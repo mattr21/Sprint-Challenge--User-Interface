@@ -203,12 +203,14 @@ footer nav a {
 .about-top-content {
     border-bottom: 1px dashed black;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .about-middle-content {
     /* border: 1px solid red; */
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -236,3 +238,8 @@ footer nav a {
     background: white;
     border-radius: 10px;
 } 
+
+.about-bottom-content {
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
