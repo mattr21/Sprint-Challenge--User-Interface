@@ -71,6 +71,7 @@ p {
     margin: 0 auto;
 }
 
+/* Home Page */
 .header nav {
     display: flex;
     justify-content: space-between;
@@ -200,6 +201,7 @@ footer nav a {
     text-decoration: none;
 }
 
+/* About Page */
 .about-top-content {
     border-bottom: 1px dashed black;
     padding: 20px;
@@ -207,8 +209,6 @@ footer nav a {
 }
 
 .about-middle-content {
-    /* border: 1px solid red; */
-    /* padding: 20px; */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -226,7 +226,6 @@ footer nav a {
 }
 
 .about-middle-content .box h2 {
-    /* border: 1px solid red; */
     margin-top: 10px;
 }
 
