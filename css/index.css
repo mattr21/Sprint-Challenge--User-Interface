@@ -199,3 +199,40 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-top-content {
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.about-middle-content {
+    /* border: 1px solid red; */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-middle-content .box {
+    border-bottom: 1px dashed black;
+    width: 46%;
+    margin: 15px 15px 50px 15px;
+    padding-bottom: 20px;
+}
+
+.about-middle-content .box img {
+    width: 100%;
+}
+
+.about-middle-content .box h2 {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+
+.about-middle-content .box button {
+    border: 2px solid black;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 7px 20px;
+    background: white;
+    border-radius: 10px;
+} 
