@@ -71,10 +71,53 @@ p {
     margin: 0 auto;
 }
 
+/* Home Page */
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 40px;
+  }
+
+.header nav a {
+      text-decoration: none;
+      color: black;
+      margin-top: 20px;
+      margin-bottom: 35px;  
+  }
+
+  .header nav a .logo {
+    animation: bounceIn 0.6s;
+    transform: rotate(0deg) scale(1);
+  }
+
+  @keyframes bounceIn {
+    0% {
+      opacity: 1;
+      transform: scale(.3);
+    } 
+  
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    } 
+  
+    70% {
+      opacity: 1;
+      transform: scale(.9);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -112,6 +155,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .one {
+    background: teal;
+}
+
+.middle-content .boxes .two {
+    background: gold;
+}
+
+.middle-content .boxes .three {
+    background: cadetblue;
+}
+
+.middle-content .boxes .four {
+    background: coral;
+}
+
+.middle-content .boxes .five {
+    background: crimson;
+}
+
+.middle-content .boxes .six {
+    background: forestgreen;
+}
+
+.middle-content .boxes .seven {
+    background: darkorchid;
+}
+
+.middle-content .boxes .eight {
+    background: hotpink;
+}
+
+.middle-content .boxes .nine {
+    background: indigo;
+}
+
+.middle-content .boxes .ten {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +226,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+.about-top-content {
+    border-bottom: 1px dashed black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about-middle-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.about-middle-content .box {
+    border-bottom: 1px dashed black;
+    width: 46%;
+    margin: 15px 15px 50px 15px;
+    padding-bottom: 20px;
+}
+
+.about-middle-content .box img {
+    width: 100%;
+}
+
+.about-middle-content .box h2 {
+    margin-top: 10px;
+}
+
+.about-middle-content .box button {
+    border: 2px solid black;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 7px 20px;
+    background: white;
+    border-radius: 10px;
+} 
+
+.about-bottom-content {
+    padding: 0 20px;
+    margin-bottom: 40px;
 }
